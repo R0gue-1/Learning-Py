@@ -59,10 +59,10 @@ def rps():
         game_count += 1
 
 
-        print(f"\nGame count: {str(game_count)}")
-        print(f"\nPlayer Score: {str(player_wins)}")
-        print(f"Computer Score: {str(computer_wins)}")
-        print(f"Ties: {str(game_ties)}")
+        print(f"\nGame count: {game_count}")
+        print(f"\nPlayer Score: {player_wins}")
+        print(f"Computer Score: {computer_wins}")
+        print(f"Ties: {game_ties}") #added this myself
         
         print('\nPlay again?')
         while True:
