@@ -39,5 +39,7 @@ import kansas
 print(kansas.capital)
 kansas.randomfunfact();
 
+from rps_scope_update_7 import rock_paper_scissors
 print(__name__)
 print(kansas.__name__)
+rock_paper_scissors()

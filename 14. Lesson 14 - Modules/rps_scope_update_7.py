@@ -83,5 +83,7 @@ def rps():
 
 # play_rps() # cant call rps now since it is no longer a global function
 
-play = rps()
-play()
+rock_paper_scissors = rps()
+
+if __name__ == "__main__":
+    rock_paper_scissors()
