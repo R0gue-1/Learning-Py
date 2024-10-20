@@ -5,7 +5,7 @@ def number_guesser(player_name='ReadyPlayer01'):
     # no longer need the player to specify their name somehow due to command line arguements
     # player_name = input("In this game the computer picks a number from 1 to 9 and you guess the number.\nEnter your name to begin: ")
    
-    print(f"{player_name},\nWelcome to the NUMBER GUESSER GAME.\nIn this game the computer picks a number from 1 to 9 and you guess the number.\nYou score 1 point each time you guess right")
+    print(f"{player_name},\nWelcome to the NUMBER GUESSER GAME.\nIn this game I shall pick a number from 1 to 9 and you guess the number.\nYou score 1 point each time you guess right")
 
     pl_score = 0
     pc_score = 0
