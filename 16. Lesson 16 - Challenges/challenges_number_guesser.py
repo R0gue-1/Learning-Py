@@ -26,7 +26,7 @@ def number_guesser(player_name='ReadyPlayer01'):
         elif str(player_guess) == str(computer_guess):
             pl_score += 1
             no_tries += 1
-            print(f"You win 🎉🎉🎉  {player_name}, lucky guess.\n")
+            print(f"You win 🎉🎉🎉  {player_name}, lucky guess there.\n")
         else:
             pc_score += 1
             no_tries += 1
