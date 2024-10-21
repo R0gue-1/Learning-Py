@@ -8,9 +8,9 @@ addTwo = lambda num : 2 + num
 print(addTwo(12))
 print("")
 
-sum = lambda a, b : a + b
+sum_total = lambda a, b : a + b
 
-print(sum(10,8))
+print(sum_total(10,8))
 print("")
 
 #########################################
@@ -43,3 +43,29 @@ odd_nums = filter(lambda num: num % 2 != 0, numbers)
 
 print(list(odd_nums))
 print("")
+
+##########################################
+# Higher Order Functions reducce()
+from functools import reduce
+
+
+
+numbers = [1,2,3,4,5,1]
+total = reduce(lambda acc, curr : acc + curr, numbers, 10)
+
+print(total)
+print("")
+
+# a more efficient way tho 
+
+print(sum(numbers, 10))
+print("")
+
+#  MORE COMPLEX APPLICATION
+
+
+
+names = ['Atibs Tibsis','Sara Ito','John Jacob']
+char_count = reduce(lambda acc, curr : acc + len(curr), names, 0)
+
+print(char_count)
