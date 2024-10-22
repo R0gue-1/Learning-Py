@@ -52,7 +52,7 @@ class GolfCart(Vehicle):
 
 cesna = Airplane("Cesna", "Skyhawk", "FA-12345")
 mack = Truck("Caterpillar", "DAF")
-cesna = Airplane("Yamaha", "DC100")
+golf = GolfCart("Yamaha", "DC100")
 
 cesna.get_make_model()
 cesna.moves()
@@ -62,7 +62,11 @@ mack.get_make_model()
 mack.moves()
 print("")
 
-GolfCart.get_make_model()
-GolfCart.moves()
-print("")
+golf.get_make_model()
+golf.moves()
+print("\n\n")
         
+# polymorphism same methods that provide different responses
+for v in(my_car, your_car, cesna, mack, golf):
+    v.get_make_model
+    v.moves
