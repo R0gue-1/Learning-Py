@@ -12,11 +12,18 @@ except NameError:
 
 
 # handle multiple errors
+
+#named exception bellow
+class JustNotCoolError(Exception):
+    pass #look at this keyword
+
 x = 2
 try:
+    # raise Exception("I am a custom exception!")
+    raise JustNotCoolError("This just isnt cool man.")
     # print(x / 0)
-    if not type(x) is str:
-        raise TypeError("Ony strings are allowed")
+    # if not type(x) is str:
+    #     raise TypeError("Ony strings are allowed")
 
 except NameError:
     print('This means there is an undefined item that has been used')
