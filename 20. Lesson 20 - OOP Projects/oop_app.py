@@ -1,25 +1,25 @@
 from bank_accounts import *
 
-Dave = BankAccount(1000, "Dave")
-Sarah = BankAccount(2000, "Sarah")
+Anyeyure = BankAccount(1000, "Anyeyure")
+Sesa = BankAccount(2000, "Sesa")
 
-Dave.getBalance()
-Sarah.getBalance()
+Anyeyure.getBalance()
+Sesa.getBalance()
 
-Sarah.deposit(500)
-Dave.deposit(600)
+Sesa.deposit(500)
+Anyeyure.deposit(600)
 
-Dave.withdraw(10000)
-Dave.withdraw(10)
+Anyeyure.withdraw(10000)
+Anyeyure.withdraw(10)
 
-Dave.transfer(10000, Sarah)
-Dave.transfer(100, Sarah)
+Anyeyure.transfer(10000, Sesa)
+Anyeyure.transfer(100, Sesa)
 
 ########## ########## ########## ##########
-Jim = InterestRewardsAcct(1000, "Jim")
-Jim.getBalance()
-Jim.deposit(100)
-Jim.transfer(100, Dave)
+Kekeli = InterestRewardsAcct(1000, "Kekeli")
+Kekeli.getBalance()
+Kekeli.deposit(100)
+Kekeli.transfer(100, Anyeyure)
 
 Blaze = SavingsAcct(1000, "Blaze")
 Blaze.getBalance()
