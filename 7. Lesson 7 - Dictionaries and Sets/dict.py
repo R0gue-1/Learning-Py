@@ -23,6 +23,17 @@ print(band['vocals'])
 print(band.get('guitar'))
 
 print('')
+print('')
+print('')
+print('')
+print('')
+print('')
+print('')
+print('')
+print('')
+print('')
+print('')
+print('')
 
 # list all keys
 print(band.keys())
