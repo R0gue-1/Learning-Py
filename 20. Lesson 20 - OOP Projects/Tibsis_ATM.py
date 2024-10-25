@@ -27,7 +27,7 @@ def tibsis_atm():
         else:
             print("All fields are required\n\n")
 
-    def account_actions(accountname):
+    def account_actions(account_name):
         action_list = {
             "1" : "Deposite Screen",
             "2" : "Withdrawal Screen",
@@ -37,7 +37,22 @@ def tibsis_atm():
         acct_action = input("\nSelect your desired action ...")
 
         if acct_action in action_list.keys():
-            print(f"********** ********** **********\n       {action_list[acct_action]}\n********** ********** **********")
+            action_title = action_list[acct_action]
+
+            print(f"********** ********** **********\n       {action_title}\n********** ********** **********")
+
+            if action_title == "Withdrawal Screen":
+                print("withdraw")
+                
+            elif action_title == "Deposite Screenn":
+                print("withdraw")
+            elif action_title == "Transfer Screenn":
+                print("withdraw")
+        else:
+            print("\n\n    *** Invalid Entry !!! ***\n********** ********** **********")
+            return account_actions(account_name)
+
+
 
 
 
