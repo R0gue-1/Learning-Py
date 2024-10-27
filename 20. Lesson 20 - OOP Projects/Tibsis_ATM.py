@@ -23,7 +23,7 @@ def tibsis_atm():
         initiald_amt = input("Initial Deposit : ")
 
         if account_name != "" and account_nama != "":
-            new_account = BankAccount(initiald_amt, account_nama, account_name)
+            Account = BankAccount(initiald_amt, account_nama, account_name)
         else:
             print("All fields are required\n\n")
 
@@ -43,6 +43,7 @@ def tibsis_atm():
 
             if action_title == "Withdrawal Screen":
                 print("withdraw")
+                # Account.widhdraw()
                 
             elif action_title == "Deposite Screenn":
                 print("withdraw")

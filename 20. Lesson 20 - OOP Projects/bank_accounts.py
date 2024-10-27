@@ -10,7 +10,7 @@ class BankAccount:
         print(f"\nAccount '{self.name}' created for User {self.num} with an innitial deposit of {self.balance}.\n\nCurrent Ballance = GH₵{self.balance}")
 
     def getBalance(self):
-        print(f"\nAccount '{self.num}' balance = GH₵{self.balance:.2f}")
+        print(f"\nAccount '{self.num}' blance = GH₵{self.balance:.2f}")
 
     def deposit(self, amount):
         self.balance = self.balance + amount
