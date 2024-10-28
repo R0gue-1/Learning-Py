@@ -14,7 +14,7 @@ class BankAccount:
 
     def deposit(self, amount):
         self.balance = self.balance + amount
-        print(f"\nDeposit of {amount} made for {self.num}'s Account")
+        print(f"\nDeposit of {amount} made for {self.num}'s Accounts")
         self.getBalance
 
     def viableTransaction(self, amount):
